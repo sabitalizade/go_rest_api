@@ -1,4 +1,4 @@
-module goapi
+module github.com/sabitalizade/go-resttAPI
 
 go 1.17
 

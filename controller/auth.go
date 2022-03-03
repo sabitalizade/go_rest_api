@@ -1,13 +1,13 @@
-package controllers
+package controller
 
 import (
-	"goapi/database"
-	"goapi/models"
 	"strconv"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gofiber/fiber/v2"
+	"github.com/sabitalizade/go-resttAPI/database"
+	"github.com/sabitalizade/go-resttAPI/models"
 	"golang.org/x/crypto/bcrypt"
 )
 

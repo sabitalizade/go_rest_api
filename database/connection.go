@@ -1,7 +1,7 @@
 package database
 
 import (
-	"goapi/models"
+	"github.com/sabitalizade/go-resttAPI/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

@@ -1,11 +1,10 @@
 package main
 
 import (
-	"goapi/database"
-	"goapi/routers"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
+	"github.com/sabitalizade/go-resttAPI/database"
+	"github.com/sabitalizade/go-resttAPI/routers"
 )
 
 func main() {

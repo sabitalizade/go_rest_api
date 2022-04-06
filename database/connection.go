@@ -9,7 +9,7 @@ import (
 var DB *gorm.DB
 
 func Connect() {
-	connection, err := gorm.Open(mysql.Open("root:72248123s@tcp(localhost:3306)/dmgo?charset=utf8&parseTime=True&loc=Local"), &gorm.Config{})
+	connection, err := gorm.Open(mysql.Open("root:root@tcp(localhost:3306)/dmgo?charset=utf8&parseTime=True&loc=Local"), &gorm.Config{})
 	if err != nil {
 		panic(err)
 	}
